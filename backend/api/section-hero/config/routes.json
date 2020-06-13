@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/section-hero",
+      "handler": "section-hero.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/section-hero",
+      "handler": "section-hero.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/section-hero",
+      "handler": "section-hero.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

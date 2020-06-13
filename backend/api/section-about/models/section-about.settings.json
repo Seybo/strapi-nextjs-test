@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "section_abouts",
+  "info": {
+    "name": "SectionAbout"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "uid": {
+      "type": "uid",
+      "required": true
+    },
+    "menu_label": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "section_portfolios",
+  "info": {
+    "name": "SectionPortfolio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "uid": {
+      "type": "uid",
+      "required": true
+    },
+    "menu_label": {
+      "type": "string"
+    }
+  }
+}

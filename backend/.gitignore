@@ -45,6 +45,7 @@ $RECYCLE.BIN/
 *.jar
 *.rar
 *.tar
+*.zip
 *.com
 *.class
 *.dll
@@ -106,6 +107,10 @@ coverage
 # Strapi
 ############################
 
+.env
 exports
 .cache
 build
+
+# deploying to heroku strapi docs suggest it
+package-lock.json

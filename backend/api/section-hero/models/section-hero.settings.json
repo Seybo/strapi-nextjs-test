@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "section_heroes",
+  "info": {
+    "name": "Section Hero"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "subheader": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "uid": {
+      "type": "uid",
+      "required": true
+    },
+    "menu_label": {
+      "type": "string"
+    }
+  }
+}
